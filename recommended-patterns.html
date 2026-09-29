@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recommended Patterns | Mosswood Fiber Studio</title>
+    <meta name="description" content="Recommended knitting patterns and project ideas from Mosswood Fiber Studio.">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Mosswood Fiber Studio home">
+        <img src="assets/images/mosswood-round-logo.jpg" alt="Mosswood Fiber Studio round yarn logo">
+      </a>
+      <button class="nav-toggle" aria-label="Navigation" onclick="document.body.classList.toggle('nav-open')">Menu</button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="recommended-patterns.html" aria-current="page">Recommended Patterns</a>
+        <a href="books.html">Books</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero compact">
+        <p class="eyebrow">Thoughtful next projects</p>
+        <h1>Recommended patterns</h1>
+        <p>
+          A curated list of patterns for building specific knitting skills. Each recommendation
+          can include a pattern link, project photo, and a note about why it is useful for learning.
+        </p>
+      </section>
+
+      <section class="pattern-section" aria-labelledby="cabling-patterns">
+        <div class="section-heading">
+          <p class="eyebrow">Skill path</p>
+          <h2 id="cabling-patterns">Cabling</h2>
+          <p>Patterns in this section should help knitters practice cable charts, front-cross and back-cross movement, and troubleshooting twisted stitches.</p>
+        </div>
+        <div class="pattern-list">
+          <article class="pattern-card pattern-card-empty">
+            <div class="pattern-photo-placeholder">Photo</div>
+            <div>
+              <h3><a href="#">Pattern title</a></h3>
+              <p>Add a short note about why this pattern is useful for learning cables.</p>
+              <p class="event-meta">Suggested focus: cable anatomy, chart reading, cable needle control</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="pattern-section" aria-labelledby="shaping-patterns">
+        <div class="section-heading">
+          <p class="eyebrow">Skill path</p>
+          <h2 id="shaping-patterns">Shaping</h2>
+          <p>Patterns in this section should build confidence with increases, decreases, gauge, fit decisions, and reading the structure of a project.</p>
+        </div>
+        <div class="pattern-list">
+          <article class="pattern-card pattern-card-empty">
+            <div class="pattern-photo-placeholder">Photo</div>
+            <div>
+              <h3><a href="#">Pattern title</a></h3>
+              <p>Add a short note about why this pattern is useful for practicing shaping.</p>
+              <p class="event-meta">Suggested focus: K2tog, SSK, M1L/M1R, yarn overs, fit planning</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="pattern-section" aria-labelledby="colorwork-patterns">
+        <div class="section-heading">
+          <p class="eyebrow">Skill path</p>
+          <h2 id="colorwork-patterns">Colorwork</h2>
+          <p>Patterns in this section should help knitters practice chart reading, color dominance, float management, and even tension across multiple colors.</p>
+        </div>
+        <div class="pattern-list">
+          <article class="pattern-card pattern-card-empty">
+            <div class="pattern-photo-placeholder">Photo</div>
+            <div>
+              <h3><a href="#">Pattern title</a></h3>
+              <p>Add a short note about why this pattern is useful for learning stranded colorwork.</p>
+              <p class="event-meta">Suggested focus: high contrast colors, short floats, tension control</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Mosswood Fiber Studio</p>
+      <p>Pattern recommendations can be edited directly in <code>recommended-patterns.html</code>.</p>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+</html>

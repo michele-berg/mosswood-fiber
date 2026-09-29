@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Mosswood Fiber Studio</title>
+    <meta name="description" content="Contact Mosswood Fiber Studio for knitting classes, fiber arts teaching, and project questions.">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Mosswood Fiber Studio home">
+        <img src="assets/images/mosswood-round-logo.jpg" alt="Mosswood Fiber Studio round yarn logo">
+      </a>
+      <button class="nav-toggle" aria-label="Navigation" onclick="document.body.classList.toggle('nav-open')">Menu</button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="recommended-patterns.html">Recommended Patterns</a>
+        <a href="books.html">Books</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero compact teaching-hero">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h1>Contact Mosswood Fiber Studio</h1>
+          <p>
+            Reach out for class inquiries, teaching availability, pattern questions,
+            and fiber-arts conversations.
+          </p>
+        </div>
+        <img src="assets/images/mosswood-tree-logo.jpg" alt="Yarn tree Mosswood logo">
+      </section>
+
+      <section class="contact-layout">
+        <section class="contact-form contact-card" aria-labelledby="contact-details">
+          <h2 id="contact-details">Contact</h2>
+          <p>
+            To reduce spam, the studio email is written out instead of linked directly.
+          </p>
+          <p class="contact-email" aria-label="Mosswood Fiber email address">
+            mosswoodfiber <span>[at]</span> gmail <span>[dot]</span> com
+          </p>
+          <p>
+            Please include your name, the class or topic you are asking about, and the best way to reach you.
+          </p>
+        </section>
+
+        <aside class="bio-card">
+          <h2>About the instructor</h2>
+          <p>
+            For more than 30 years, I have been immersed in the world of fiber arts,
+            with hands-on experience in knitting, crocheting, weaving, spinning,
+            silkworm rearing, and silk reeling.
+          </p>
+          <p>
+            Teaching has been an important part of my journey: I have taught fiber arts
+            classes across the Society for Creative Anachronism for over 20 years, and
+            have taught several years at the Dallas-Fort Worth Fiber Fest.
+          </p>
+          <p>
+            My teaching style focuses on clear, supportive instruction that builds
+            confidence and helps students understand the why behind the techniques they learn.
+            I am passionate about preserving historic textile traditions while also encouraging
+            modern creative exploration.
+          </p>
+          <p>
+            I live in Austin with my husband and our beloved collection of cats, dogs,
+            horses, and chickens, where our home studio is always full of yarn, fiber,
+            and ongoing experiments.
+          </p>
+          <p class="ravelry-id">Ravelry: <strong>MosswoodFiber</strong></p>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Mosswood Fiber Studio</p>
+      <p>Ravelry: MosswoodFiber</p>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+</html>

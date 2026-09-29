@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Recommendations | Mosswood Fiber Studio</title>
+    <meta name="description" content="Knitting and fiber arts book recommendations from Mosswood Fiber Studio.">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Mosswood Fiber Studio home">
+        <img src="assets/images/mosswood-round-logo.jpg" alt="Mosswood Fiber Studio round yarn logo">
+      </a>
+      <button class="nav-toggle" aria-label="Navigation" onclick="document.body.classList.toggle('nav-open')">Menu</button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="recommended-patterns.html">Recommended Patterns</a>
+        <a href="books.html" aria-current="page">Books</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero compact">
+        <p class="eyebrow">Reference shelf</p>
+        <h1>Book recommendations</h1>
+        <p>
+          Books I recommend for building knitting confidence, understanding textile structure,
+          and exploring fiber arts more deeply.
+        </p>
+        <p class="affiliate-note">
+          Disclosure: Some links on this page may be affiliate links. If you buy through those links,
+          Mosswood Fiber Studio may earn a small commission at no additional cost to you.
+        </p>
+      </section>
+
+      <section class="book-list" aria-label="Recommended books">
+        <article class="book-card">
+          <div class="book-cover-placeholder">Cover</div>
+          <div>
+            <h2><a href="#">Book title</a></h2>
+            <p class="event-meta">Author name &middot; Skill area</p>
+            <p>Add a short blurb about why you recommend this book and which students or makers it best supports.</p>
+          </div>
+        </article>
+
+        <article class="book-card">
+          <div class="book-cover-placeholder">Cover</div>
+          <div>
+            <h2><a href="#">Book title</a></h2>
+            <p class="event-meta">Author name &middot; Reference / technique</p>
+            <p>Add notes about the techniques, illustrations, charts, or explanations that make this book worth owning.</p>
+          </div>
+        </article>
+
+        <article class="book-card">
+          <div class="book-cover-placeholder">Cover</div>
+          <div>
+            <h2><a href="#">Book title</a></h2>
+            <p class="event-meta">Author name &middot; Inspiration</p>
+            <p>Add notes about how this book inspires projects, design thinking, historic textile exploration, or creative confidence.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Mosswood Fiber Studio</p>
+      <p>Book links and blurbs can be edited directly in <code>books.html</code>.</p>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+</html>

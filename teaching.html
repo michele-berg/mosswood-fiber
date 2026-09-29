@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teaching | Mosswood Fiber Studio</title>
+    <meta name="description" content="Knitting classes from Mosswood Fiber Studio: beginner knitting, advanced beginner skills, cables, and colorwork.">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Mosswood Fiber Studio home">
+        <img src="assets/images/mosswood-round-logo.jpg" alt="Mosswood Fiber Studio round yarn logo">
+      </a>
+      <button class="nav-toggle" aria-label="Navigation" onclick="document.body.classList.toggle('nav-open')">Menu</button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="teaching.html" aria-current="page">Teaching</a>
+        <a href="recommended-patterns.html">Recommended Patterns</a>
+        <a href="books.html">Books</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero compact teaching-hero">
+        <div>
+          <p class="eyebrow">Workshops and fiber gatherings</p>
+          <h1>Knitting classes with patient, practical instruction</h1>
+          <p>
+            Classes are built around clear demonstrations, hands-on practice, and an emphasis on
+            understanding the structure behind the technique. Confirmed dates and locations can be added here.
+          </p>
+        </div>
+        <img src="assets/images/mosswood-knot-logo.jpg" alt="Yarn knot logo">
+      </section>
+
+      <section class="events-list" aria-label="Upcoming classes">
+        <article class="event-card">
+          <div class="event-date"><span>3 hr</span><strong>Beginner</strong></div>
+          <div>
+            <h2>Beginner Knitting: Core Skills for New Stitchers</h2>
+            <p>Start with long-tail and knit cast-ons, knit and purl stitches, binding off, tension control, reading your work, fixing common mistakes, joining new yarn, and beginner stitch patterns including garter, stockinette, ribbing, and seed stitch.</p>
+            <p class="event-meta">Skill level: true beginner &middot; Homework: none &middot; Students leave with a swatch sampler.</p>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <div class="event-date"><span>3 hr</span><strong>Next Step</strong></div>
+          <div>
+            <h2>Advanced Beginner Knitting: Building Skills & Confidence</h2>
+            <p>For students who can already cast on, knit, purl, bind off, and work basic stitch patterns. Covers written patterns, basic charts, gauge, swatches, shaping, knitting in the round, and an overview of circular needles, DPNs, and magic loop.</p>
+            <p class="event-meta">Homework: 6 inch by 6 inch stockinette swatch, knit flat.</p>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <div class="event-date"><span>2 hr</span><strong>Cables</strong></div>
+          <div>
+            <h2>Knitting Cables: Twist Your Knitting</h2>
+            <p>Learn front-cross and back-cross cable anatomy, how to use a cable needle, how to read cable charts and written instructions, and how to troubleshoot common cable mistakes.</p>
+            <p class="event-meta">Skill level: comfortable with cast on, bind off, knit, purl, and pattern reading.</p>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <div class="event-date"><span>2 hr</span><strong>Color</strong></div>
+          <div>
+            <h2>Colorwork Confidence: Your First Stranded Knitting Project</h2>
+            <p>Practice reading colorwork charts, managing and catching floats, maintaining even tension, understanding color dominance, and troubleshooting common stranded-knitting mistakes.</p>
+            <p class="event-meta">Students create a small colorwork swatch using two highly contrasting solid colors.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="teaching-note">
+        <h2>About the instructor</h2>
+        <p>
+          The instructor behind Mosswood Fiber Studio has been immersed in fiber arts for more than 30 years,
+          with experience across knitting, crocheting, weaving, spinning, silkworm rearing, and silk reeling.
+          She has taught fiber arts throughout the Society for Creative Anachronism for over 20 years and has
+          taught for several years at the Dallas-Fort Worth Fiber Fest. Her teaching style is clear, supportive,
+          and focused on helping students understand both the how and the why.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Mosswood Fiber Studio</p>
+      <p>Teaching dates can be edited directly in <code>teaching.html</code>.</p>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+</html>
